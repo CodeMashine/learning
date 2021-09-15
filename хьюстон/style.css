@@ -1,0 +1,58 @@
+body{
+    margin:auto;
+    padding:auto;
+    max-width:70% ;
+}
+
+h1{
+    font-size:32px;
+}
+
+h1 ,h2 ,h3 {
+    margin-top: 1.5em;
+    font-family: sans-serif;
+}
+
+table , th , td{
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+.image{
+    margin: 10px ;
+    float:right;
+    background-color: rgb(207, 201, 201);
+    text-align: center;
+   
+}
+
+figcaption{
+    font-style: italic;
+}
+
+img{
+    padding:10px ;
+}
+
+blockquote{
+    font-style: italic;
+}
+
+ol{
+   margin: 0px;
+    /* padding: 0px; */
+    /* overflow: hidden; */
+    text-align: left ;
+}
+
+/* .clearfix::after{
+    content:'' ;
+    display:table;
+    clear:both ;
+} */
+
+.clear{
+    clear:both ;
+}
