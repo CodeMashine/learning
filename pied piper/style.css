@@ -37,6 +37,8 @@
     font-family: sans-serif;
     font-weight: bold;
     font-size: 1em;
+    transition-duration: 1s;
+    transition-timing-function: linear;
     
 }
 
@@ -89,7 +91,7 @@
 }
 
 .problem,
-.PPC p {
+.PPC {
     font-family: sans-serif;
     font-size: 2em;
     padding-bottom: 1em;
@@ -176,3 +178,9 @@ margin-bottom:4rem ; */
     padding:2em ;
     font-family:sans-serif ;
 }
+
+/* .problemAnchor{
+    position:absolute ;
+    z-index: 0;
+    top:400px;
+} */
